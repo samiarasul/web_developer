@@ -129,3 +129,24 @@ main{
     max-width: 800px;
     margin: 0 auto;    
 }
+.skills-title
+{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.skills-items
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: left;
+    margin: 0 auto;
+    border: 1px solid white;
+
+}
+.skill-des
+
+{
+    font-size: 16px;
+    color: #757575;  
+}
