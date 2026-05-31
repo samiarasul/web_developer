@@ -106,7 +106,7 @@ main{
 }  
 .about-des
 {
-     margin: 0 auto;
+    margin: 0 auto;
     max-width: 600px;
     font-size: 18px;
     padding: 20px 0;
@@ -129,24 +129,35 @@ main{
     max-width: 800px;
     margin: 0 auto;    
 }
-.skills-title
-{
-    font-size: 25px;
-    font-weight: bolder;
-}
-.skills-items
-{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    align-items: left;
-    margin: 0 auto;
-    border: 1px solid white;
-
-}
-.skill-des
-
+.skill-title
 {
     font-size: 16px;
+    font-weight: bold;
+}
+ .skills-items
+{
+    display: flex;   
+    flex-wrap: wrap; 
+    gap: 15px;
+    justify-content: center;     
+
+}
+div img
+{
+    width: 30px;
+    height: 30px;
+}
+.skill-item
+{
+width : 140px;
+border: 1px solid #e0e0e0;
+border-radius: 10px;
+text-align:left;
+padding: 20px; 
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.skill-des
+{
+    font-size: 14px;
     color: #757575;  
 }
